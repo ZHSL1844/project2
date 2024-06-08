@@ -1,0 +1,22 @@
+.cmobile{
+    padding: 10px;
+    border: 1px solid rgb(167 , 167 , 167);
+    border-radius: 10px;
+}
+
+.cbutton{
+    background-color: rgb(114, 121, 118);
+    padding: 10px 20px;
+    border: 1px solid rgb(136 , 136 , 136);
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.div_login{
+    text-align: center;
+}
+
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

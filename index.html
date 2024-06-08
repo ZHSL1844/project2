@@ -1,0 +1,47 @@
+<html>
+
+  <head>
+     <link rel="stylesheet" href="zahra.css">
+  </head>
+
+
+ <body>
+    <div class="div_login">
+       <h1>
+          Login
+       </h1>
+        <br>
+        <input id="imobile" type="tel" class="cmobile" maxlength="11">
+         <br>
+         <button onclick="Login();" class="cbutton">
+           Enter
+         </button>
+    </div>
+
+
+  </body>
+</html>
+
+
+
+<script>
+
+   function Login(){
+    var mobile = document.getElementById("imobile").value;
+    if(mobile.length < 11 || mobile.length > 11){
+       alert("کاربر گرامی،شماره وارد شده اشتباه است");
+       return;
+    }
+
+     if(mobile.substring(0,2)!='09'){
+      alert("کاربر گرامی شماره خود را به صورت صحیح وارد کنید.برای مثال 09127468690");
+      return;
+     }
+
+     alert("ممنون بابت شماره موبایلت :)");
+
+}
+   
+
+
+</script>
